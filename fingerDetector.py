@@ -9,7 +9,7 @@ cap = cv2.VideoCapture(0)
 cap.set(3, wCam)
 cap.set(4, hCam)
 
-folderPath = "hands"
+folderPath = "hands"   # Here your Directory file name (the pictures should be posted here)
 myList = os.listdir(folderPath)
 print(myList)
 
